@@ -1,0 +1,28 @@
+{
+  "name": "admin-dashboard-backend",
+  "version": "1.0.0",
+  "description": "linkific assignment",
+  "homepage": "https://github.com/Smruti-Rekha-Swain/admin-dashboard-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Smruti-Rekha-Swain/admin-dashboard-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smruti-Rekha-Swain/admin-dashboard-backend.git"
+  },
+  "license": "ISC",
+  "author": "smrutirekha swain",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "nodemon": "^3.1.11"
+  }
+}
